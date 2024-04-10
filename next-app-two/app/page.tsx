@@ -27,11 +27,11 @@ export default async function Home() {
   const userData = await getUserDetails();
   console.log(userData)
   return (
-    <div className="flex flex-col justify-center h-screen">
+    <div className="flex flex-col justify-center h-screen bg-[#a855f7]">
       <div className="flex justify-center">
         <div className="border p-8 rounded">
-          <p>{userData?.name}</p>
-          <p>{userData?.email}</p>
+          <p className="text-white">{userData?.name}</p>
+          <p className="text-white">{userData?.email}</p>
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ export function Signin(){
                 <div>
                     <div className="px-10">
                         <div className="text-3xl font-extrabold">
-                            Sign in
+                            Sign in 
                         </div>
                     </div>
                     <div className="pt-2">
